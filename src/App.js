@@ -94,7 +94,7 @@ const App = () => {
         </div>
       </section>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
