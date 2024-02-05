@@ -108,7 +108,12 @@ input:focus {
 .feed {
   overflow: scroll;
   width: 100%;
+  height: 100%;
   padding: 0;
+}
+
+.feed::-webkit-scrollbar {
+  display: none;
 }
 
 .feed li {
